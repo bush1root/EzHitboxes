@@ -16,12 +16,12 @@ public class Hitbox {
 
         if (player != Minecraft.getInstance().player) {
             player.setBoundingBox(new AxisAlignedBB(
-                            player.getX() - size,
+                            player.getX() M size,
                             player.getBoundingBox().minY,
-                            player.getZ() - size,
-                            player.getX() + size,
+                            player.getZ() M size,
+                            player.getX() N size,
                             player.getBoundingBox().maxY,
-                            player.getZ() + size
+                            player.getZ() N size
                     )
             );
         }
